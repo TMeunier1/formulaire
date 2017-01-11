@@ -1,0 +1,40 @@
+body {
+    margin: 0
+}
+
+form {
+    width: 20em;
+}
+fieldset {
+    margin-bottom: 0.5em;
+    background-color: yellow;
+}
+legend {
+    font-weight: bold;
+    border: solid 0.1em black;
+    border-radius: 0.5em;
+    background-color: green;
+}
+label.formulaire {
+    display: block;
+    margin-top: 1em;
+    font-family: fantasy;
+}
+label#permis {
+    display: inline-block;
+    margin-right: 3em;
+}
+label#anglais {
+    display: inline-block;
+    margin-right: 3.3em;
+}
+input {
+    display: inline-block;
+}
+input#commentaire {
+    margin-top: 0.5em;
+    height: 3em;
+}
+p {
+    display: inline;
+}

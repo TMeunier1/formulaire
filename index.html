@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire de contact</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <form action="http://live.codincamp.fr/mail.php" method="post">
+            <fieldset>
+                <legend> Informations </legend>
+                <label for="name" class="formulaire">Nom</label>
+                    <input id="name" type="text" name="name"/>
+                <label for="sujet" class="formulaire">Sujet</label>
+                    <input id="sujet" type="text" name="subject"/>
+                <label for="age" class="formulaire">Âge</label>
+                    <input id="age" type="text" name="age"/>
+                    <label for="phone" class="formulaire">Téléphone</label>
+                    <input id="phone" type="tel" name="telephone"/>
+                <label for="mail" class="formulaire">Adresse email</label>
+                    <input id="mail" type="email" name="email"/>
+                <label id="permis">Permis B</label>
+                    <p> Oui </p>
+                    <input type="radio" name="permis"/>
+                    <p> Non </p>
+                    <input type="radio" name="permis"/>
+                <label id="anglais">Anglais</label>
+                    <p> Oral</p>
+                    <input type="checkbox" name="anglais"/>
+                    <p> Ecrit </p>
+                <input type="checkbox" name="anglais"/>
+
+            </fieldset>
+            <fieldset>
+                <legend> Commentaire </legend>
+                <textarea id="commentaire" type="textarea" name="message" cols="40" rows="5"></textarea> 
+            </fieldset>
+                <input id="envoi" type="submit"/>
+        </form>
+    </body>
+</html>
